@@ -38,7 +38,8 @@
 .skills,
 .awards,
 .education,
-.language {
+.language,
+.extra {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -49,7 +50,8 @@
 .skills h4,
 .awards h4,
 .education h4,
-.language h4 {
+.language h4,
+.extra h4 {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -63,7 +65,8 @@
 .skills ul li,
 .awards ul li,
 .education ul li,
-.language ul li {
+.language ul li,
+.extra ul li {
   font-size: 12px;
   line-height: 20px;
 }
@@ -110,7 +113,7 @@
 }
 
 .profile h4 {
-  margin-top: 95px;
+  margin-top: 140px;
   color: #00a7e9;
 }
 
@@ -164,19 +167,14 @@
   color: #505050;
 }
 
-.extra {
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-.extra h4 {
+.certification {
   margin-top: 30px;
 }
 
-.extra ul li {
-  color: #505050;
+.certification ul {
+  padding: 10px;
 }
 
-.activity {
-  padding: 10px;
+.certification ul li {
+  color: #505050;
 }
