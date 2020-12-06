@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.left-section {
+  background-color: #345383;
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 60px;
+}
+
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.profile-pic img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.contact,
+.skills,
+.awards,
+.education,
+.language {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact h4,
+.skills h4,
+.awards h4,
+.education h4,
+.language h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact ul li,
+.skills ul li,
+.awards ul li,
+.education ul li,
+.language ul li {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.right-section {
+  background-color: #ffffff;
+  flex: 70%;
+  margin-left: 50px;
+  margin-top: 5.5rem;
+}
+
+.right-section li {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.right-section h4 {
+  color: #00a7e9;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.name h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #345383;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+.name hr {
+  width: 10%;
+  border: 1px solid #333333;
+}
+
+.name p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00a7e9;
+  margin-top: 20px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+}
+
+.profile h4 {
+  margin-top: 95px;
+  color: #00a7e9;
+}
+
+.profile p {
+  margin-top: 15px;
+  color: #505050;
+}
+
+.work-experience h4 {
+  margin-top: 30px;
+}
+
+.company {
+  padding: 10px;
+}
+
+.company h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.company p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #6b6a6a;
+  margin-bottom: 8px;
+}
+
+.company ul li {
+  color: #505050;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.project {
+  padding: 10px;
+}
+
+.project h5 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin-bottom: 8px;
+}
+
+.project ul li {
+  color: #505050;
+}
+
+.extra {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.extra h4 {
+  margin-top: 30px;
+}
+
+.extra ul li {
+  color: #505050;
+}
+
+.activity {
+  padding: 10px;
+}
