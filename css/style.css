@@ -52,7 +52,8 @@
 .education h4,
 .language h4,
 .extra h4 {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -67,7 +68,8 @@
 .education ul li,
 .language ul li,
 .extra ul li {
-  font-size: 12px;
+  /* font-size: 12px; */
+  font-size: 13px;
   line-height: 20px;
 }
 
@@ -80,13 +82,15 @@
 }
 
 .right-section li {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 15px;
   line-height: 18px;
 }
 
 .right-section h4 {
   color: #00a7e9;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 17px;
   letter-spacing: 2px;
 }
 
