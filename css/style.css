@@ -73,6 +73,10 @@
   line-height: 20px;
 }
 
+.education h5 {
+  font-size: 12px;
+}
+
 .right-section {
   background-color: #ffffff;
   flex: 70%;
