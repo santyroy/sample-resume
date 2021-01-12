@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  padding: 60px;
+  padding: 30px 60px;
 }
 
 .profile-pic {
@@ -81,7 +81,7 @@
   background-color: #ffffff;
   flex: 70%;
   margin-left: 50px;
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-right: 150px;
 }
 
