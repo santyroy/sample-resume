@@ -121,7 +121,8 @@
 }
 
 .profile h4 {
-  margin-top: 90px;
+  /* margin-top: 90px; */
+  margin-top: 50px;
   color: #00a7e9;
 }
 
@@ -131,7 +132,7 @@
 }
 
 .work-experience h4 {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .company {
@@ -176,7 +177,7 @@
 }
 
 .certification {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .certification ul {
