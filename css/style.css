@@ -37,7 +37,6 @@
 .contact,
 .skills,
 .awards,
-.education,
 .language,
 .extra {
   margin-bottom: 20px;
@@ -49,7 +48,6 @@
 .contact h4,
 .skills h4,
 .awards h4,
-.education h4,
 .language h4,
 .extra h4 {
   /* font-size: 14px; */
@@ -65,7 +63,6 @@
 .contact ul li,
 .skills ul li,
 .awards ul li,
-.education ul li,
 .language ul li,
 .extra ul li {
   /* font-size: 12px; */
@@ -176,14 +173,17 @@
   color: #505050;
 }
 
-.certification {
-  margin-top: 25px;
+.certification,
+.education {
+  margin-top: 10px;
 }
 
-.certification ul {
+.certification ul,
+.education ul {
   padding: 10px;
 }
 
-.certification ul li {
+.certification ul li,
+.education ul li {
   color: #505050;
 }
